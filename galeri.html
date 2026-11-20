@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <title>Galeri | Omah N'dinginan</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Galeri villa Omah N&#x27;dinginan: kolam renang, ruang keluarga, kamar, dan taman." name="description">
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Font dan ikon (disimpan lokal) -->
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- Library animasi dari template -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Bootstrap dan gaya template Hotelier, lalu lapisan merek Omah N'dinginan -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/omah.css" rel="stylesheet">
+
+    <!-- Arah geser halaman (diisi saat menu diklik; dibaca sebelum halaman tampil) -->
+    <script>try { var a = sessionStorage.getItem('omah-arah'); if (a) { document.documentElement.classList.add('masuk-' + a); sessionStorage.removeItem('omah-arah'); } } catch (e) {}</script>
+</head>
+
+<body>
+    <a class="lompat" href="#isi">Lewati ke isi</a>
+
+    <!-- Top bar -->
+    <div class="bilah-atas">
+        <div class="container">
+            <span class="kiri"><i class="bi bi-geo-alt"></i>Sumberharjo, Prambanan, Sleman, Yogyakarta</span>
+            <div class="kanan">
+                <a href="https://wa.me/6285190012056?text=Halo%20Omah%20N%27dinginan%2C%20saya%20ingin%20bertanya%20tentang%20villa." target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i>+62 851-9001-2056</a>
+                <a class="email" href="mailto:dimasbusinesshub@gmail.com"><i class="bi bi-envelope"></i>dimasbusinesshub@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigasi -->
+    <header class="sticky-top" id="kepala">
+        <nav class="navbar navbar-expand-lg" aria-label="Menu utama">
+            <div class="container">
+                <a href="index.html" class="navbar-brand merek py-0" id="logo-atas" title="Ke atas"><img src="img/logo-horizontal.png" alt="Omah N'dinginan" width="1129" height="258"></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Buka menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <div class="navbar-nav align-items-lg-center">
+                    <a href="index.html" class="nav-item nav-link">Beranda</a>
+                    <a href="villa.html" class="nav-item nav-link">Villa</a>
+                    <a href="tentang.html" class="nav-item nav-link">Tentang Kami</a>
+                    <a href="galeri.html" class="nav-item nav-link active" aria-current="page">Galeri</a>
+                    <a href="kontak.html" class="nav-item nav-link">Kontak</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="isi">
+
+        <!-- Kepala subhalaman -->
+        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/villa/kolam-3.jpg);">
+            <div class="container-fluid page-header-inner py-5">
+                <div class="container text-center py-5">
+                    <p class="label-kecil mb-2 animated slideInDown">Galeri Villa</p>
+                    <h1 class="display-4 mb-3 animated slideInDown">Galeri</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase mb-0">
+                            <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Galeri</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- Galeri -->
+        <section class="container-xxl py-4" id="galeri">
+            <div class="container pb-5">
+                <div class="saring mb-4" role="group" aria-label="Saring galeri" data-saring-untuk="galeri-villa"><button type="button" data-saring="semua" data-label="foto" aria-pressed="true">Semua</button><button type="button" data-saring="eksterior" data-label="foto eksterior" aria-pressed="false">Eksterior</button><button type="button" data-saring="kolam" data-label="foto kolam dan ruang keluarga" aria-pressed="false">Kolam &amp; Ruang Keluarga</button><button type="button" data-saring="kamar" data-label="foto kamar dan kamar mandi" aria-pressed="false">Kamar &amp; Kamar Mandi</button></div>
+                <div class="galeri" id="galeri-villa">
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.10s" data-kategori="eksterior">
+                        <a href="img/villa/area-masuk.jpg" data-lightbox="villa" data-judul="Area masuk villa"><img class="" src="img/villa/area-masuk-kecil.jpg" alt="Area masuk villa" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Area masuk villa</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.15s" data-kategori="eksterior">
+                        <a href="img/villa/halaman-1.jpg" data-lightbox="villa" data-judul="Halaman dan jalan setapak"><img class="" src="img/villa/halaman-1-kecil.jpg" alt="Halaman dan jalan setapak" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Halaman dan jalan setapak</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.20s" data-kategori="eksterior">
+                        <a href="img/villa/halaman-2.jpg" data-lightbox="villa" data-judul="Halaman dengan taman tropis"><img class="" src="img/villa/halaman-2-kecil.jpg" alt="Halaman dengan taman tropis" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Halaman dengan taman tropis</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.10s" data-kategori="eksterior">
+                        <a href="img/villa/halaman-3.jpg" data-lightbox="villa" data-judul="Gerbang lengkung di halaman"><img class="" src="img/villa/halaman-3-kecil.jpg" alt="Gerbang lengkung di halaman" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Gerbang lengkung di halaman</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.15s" data-kategori="kolam">
+                        <a href="img/villa/kolam-1.jpg" data-lightbox="villa" data-judul="Kolam renang dan pintu kaca"><img class="" src="img/villa/kolam-1-kecil.jpg" alt="Kolam renang dan pintu kaca" width="720" height="384" loading="lazy"></a>
+                        <figcaption>Kolam renang dan pintu kaca</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.20s" data-kategori="kolam">
+                        <a href="img/villa/ruang-keluarga-1.jpg" data-lightbox="villa" data-judul="Ruang keluarga menghadap kolam"><img class="" src="img/villa/ruang-keluarga-1-kecil.jpg" alt="Ruang keluarga menghadap kolam" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Ruang keluarga menghadap kolam</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.10s" data-kategori="kolam">
+                        <a href="img/villa/ruang-keluarga-2.jpg" data-lightbox="villa" data-judul="Dapur dan ruang keluarga terbuka"><img class="" src="img/villa/ruang-keluarga-2-kecil.jpg" alt="Dapur dan ruang keluarga terbuka" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Dapur dan ruang keluarga terbuka</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.15s" data-kategori="kolam">
+                        <a href="img/villa/ruang-keluarga-3.jpg" data-lightbox="villa" data-judul="Dapur dan meja makan"><img class="" src="img/villa/ruang-keluarga-3-kecil.jpg" alt="Dapur dan meja makan" width="720" height="386" loading="lazy"></a>
+                        <figcaption>Dapur dan meja makan</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.20s" data-kategori="kolam">
+                        <a href="img/villa/ruang-keluarga-4.jpg" data-lightbox="villa" data-judul="Ruang santai"><img class="" src="img/villa/ruang-keluarga-4-kecil.jpg" alt="Ruang santai" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Ruang santai</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.10s" data-kategori="kolam">
+                        <a href="img/villa/kolam-2.jpg" data-lightbox="villa" data-judul="Kolam renang dengan taman"><img class="" src="img/villa/kolam-2-kecil.jpg" alt="Kolam renang dengan taman" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Kolam renang dengan taman</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.15s" data-kategori="kolam">
+                        <a href="img/villa/kolam-3.jpg" data-lightbox="villa" data-judul="Kolam renang dan teras"><img class="" src="img/villa/kolam-3-kecil.jpg" alt="Kolam renang dan teras" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Kolam renang dan teras</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.20s" data-kategori="kamar">
+                        <a href="img/villa/kamar-mandi-bersama.jpg" data-lightbox="villa" data-judul="Kamar mandi bersama"><img class="" src="img/villa/kamar-mandi-bersama-kecil.jpg" alt="Kamar mandi bersama" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Kamar mandi bersama</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.10s" data-kategori="kamar">
+                        <a href="img/villa/kamar-mandi-utama-1.jpg" data-lightbox="villa" data-judul="Kamar mandi utama"><img class="" src="img/villa/kamar-mandi-utama-1-kecil.jpg" alt="Kamar mandi utama" width="720" height="403" loading="lazy"></a>
+                        <figcaption>Kamar mandi utama</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.15s" data-kategori="kamar">
+                        <a href="img/villa/kamar-mandi-utama-2.jpg" data-lightbox="villa" data-judul="Bathtub kamar mandi utama"><img class="" src="img/villa/kamar-mandi-utama-2-kecil.jpg" alt="Bathtub kamar mandi utama" width="720" height="387" loading="lazy"></a>
+                        <figcaption>Bathtub kamar mandi utama</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.20s" data-kategori="kamar">
+                        <a href="img/villa/kamar-tidur-utama.jpg" data-lightbox="villa" data-judul="Kamar tidur utama"><img class="" src="img/villa/kamar-tidur-utama-kecil.jpg" alt="Kamar tidur utama" width="720" height="447" loading="lazy"></a>
+                        <figcaption>Kamar tidur utama</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.10s" data-kategori="kamar">
+                        <a href="img/villa/kamar-tidur-2.jpg" data-lightbox="villa" data-judul="Kamar tidur kedua"><img class="" src="img/villa/kamar-tidur-2-kecil.jpg" alt="Kamar tidur kedua" width="720" height="450" loading="lazy"></a>
+                        <figcaption>Kamar tidur kedua</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.15s" data-kategori="eksterior">
+                        <a href="img/villa/tampak-depan-villa.jpg" data-lightbox="villa" data-judul="Tampak depan dua villa"><img class="" src="img/villa/tampak-depan-villa-kecil.jpg" alt="Tampak depan dua villa" width="720" height="365" loading="lazy"></a>
+                        <figcaption>Tampak depan dua villa</figcaption>
+                    </figure>
+                    <figure class="butir-saring wow fadeInUp" data-wow-delay="0.20s" data-kategori="eksterior">
+                        <a href="img/villa/tampak-atas-villa.jpg" data-lightbox="villa" data-judul="Tampak atas susunan villa"><img class="" src="img/villa/tampak-atas-villa-kecil.jpg" alt="Tampak atas susunan villa" width="720" height="355" loading="lazy"></a>
+                        <figcaption>Tampak atas susunan villa</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Kaki -->
+    <footer class="container-fluid text-light footer">
+        <div class="container pb-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-7">
+                    <img class="logo-kaki mb-3" src="img/logo-bulat.png" alt="Omah N'dinginan" width="512" height="512" loading="lazy">
+                    <p class="mb-0">Omah N'dinginan Prambanan, Sleman, Yogyakarta</p>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <h6 class="text-uppercase mb-4">Kontak</h6>
+                    <p class="mb-2 d-flex"><i class="bi bi-geo-alt me-3"></i><span>Jl. Dinginan, Sumberharjo, Prambanan, Sleman, Yogyakarta</span></p>
+                    <p class="mb-2 d-flex"><i class="bi bi-whatsapp me-3"></i><a href="https://wa.me/6285190012056?text=Halo%20Omah%20N%27dinginan%2C%20saya%20ingin%20bertanya%20tentang%20villa." target="_blank" rel="noopener">+62 851-9001-2056</a></p>
+                    <p class="mb-2 d-flex"><i class="bi bi-envelope me-3"></i><a href="mailto:dimasbusinesshub@gmail.com">dimasbusinesshub@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">&copy; 2026 Omah N'dinginan</div>
+                    <div class="col-md-6 text-center text-md-end">Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/6285190012056?text=Halo%20Omah%20N%27dinginan%2C%20saya%20ingin%20bertanya%20tentang%20villa." class="wa-melayang" target="_blank" rel="noopener" aria-label="Chat WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+    <!-- Library JavaScript -->
+    <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+
+    <!-- Kontak dan interaksi website -->
+    <script src="js/config.js"></script>
+    <script src="js/omah.js"></script>
+</body>
+
+</html>

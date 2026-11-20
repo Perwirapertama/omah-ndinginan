@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kontak | Omah N'dinginan</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Alamat dan kontak Omah N&#x27;dinginan, Prambanan, Sleman." name="description">
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Font dan ikon (disimpan lokal) -->
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- Library animasi dari template -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Bootstrap dan gaya template Hotelier, lalu lapisan merek Omah N'dinginan -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/omah.css" rel="stylesheet">
+
+    <!-- Arah geser halaman (diisi saat menu diklik; dibaca sebelum halaman tampil) -->
+    <script>try { var a = sessionStorage.getItem('omah-arah'); if (a) { document.documentElement.classList.add('masuk-' + a); sessionStorage.removeItem('omah-arah'); } } catch (e) {}</script>
+</head>
+
+<body>
+    <a class="lompat" href="#isi">Lewati ke isi</a>
+
+    <!-- Top bar -->
+    <div class="bilah-atas">
+        <div class="container">
+            <span class="kiri"><i class="bi bi-geo-alt"></i>Sumberharjo, Prambanan, Sleman, Yogyakarta</span>
+            <div class="kanan">
+                <a href="https://wa.me/6285190012056?text=Halo%20Omah%20N%27dinginan%2C%20saya%20ingin%20bertanya%20tentang%20villa." target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i>+62 851-9001-2056</a>
+                <a class="email" href="mailto:dimasbusinesshub@gmail.com"><i class="bi bi-envelope"></i>dimasbusinesshub@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigasi -->
+    <header class="sticky-top" id="kepala">
+        <nav class="navbar navbar-expand-lg" aria-label="Menu utama">
+            <div class="container">
+                <a href="index.html" class="navbar-brand merek py-0" id="logo-atas" title="Ke atas"><img src="img/logo-horizontal.png" alt="Omah N'dinginan" width="1129" height="258"></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Buka menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <div class="navbar-nav align-items-lg-center">
+                    <a href="index.html" class="nav-item nav-link">Beranda</a>
+                    <a href="villa.html" class="nav-item nav-link">Villa</a>
+                    <a href="tentang.html" class="nav-item nav-link">Tentang Kami</a>
+                    <a href="galeri.html" class="nav-item nav-link">Galeri</a>
+                    <a href="kontak.html" class="nav-item nav-link active" aria-current="page">Kontak</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="isi">
+
+        <!-- Kepala subhalaman -->
+        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/villa/area-masuk.jpg);">
+            <div class="container-fluid page-header-inner py-5">
+                <div class="container text-center py-5">
+                    <p class="label-kecil mb-2 animated slideInDown">Hubungi Kami</p>
+                    <h1 class="display-4 mb-3 animated slideInDown">Kontak</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase mb-0">
+                            <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Kontak</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <section class="container-xxl py-4">
+            <div class="container">
+                <div class="kepala-bagian tengah mb-5 wow fadeInUp" data-wow-delay="0.1s"><span class="label-kecil">Kontak</span><h2 class="judul-bagian">Hubungi Kami</h2><div class="garis-hias"></div></div>
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="kartu-kontak">
+                            <div class="ikon"><i class="bi bi-geo-alt" aria-hidden="true"></i></div>
+                            <h2>Alamat</h2>
+                            <p id="alamat" class="mb-3">Jl. Dinginan, RT 002/RW 001, Padukuhan Dinginan, Kalurahan Sumberharjo, Kapanewon Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta</p>
+                            <button type="button" class="btn btn-sm btn-outline-primary px-3 py-2 me-2 mb-2" data-salin="#alamat" data-info="#info-alamat" data-berhasil="Alamat disalin."><i class="bi bi-copy me-2"></i>Salin Alamat</button>
+                            <a class="btn btn-sm btn-primary px-3 py-2 mb-2" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x2e7a51003701cbb5:0x186a47553a86d8c" target="_blank" rel="noopener"><i class="bi bi-map me-2"></i>Petunjuk Arah</a>
+                            <p id="info-alamat" class="status-salin mb-0" aria-live="polite"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="kartu-kontak">
+                            <div class="ikon"><i class="bi bi-chat-dots" aria-hidden="true"></i></div>
+                            <h2>WhatsApp &amp; Email</h2>
+                            <ul class="daftar-kontak">
+                                <li><i class="bi bi-whatsapp" aria-hidden="true"></i><span><small>WhatsApp</small>+62 851-9001-2056</span></li>
+                                <li><i class="bi bi-envelope" aria-hidden="true"></i><span><small>Email</small><span class="email-teks">dimasbusinesshub@gmail.com</span></span></li>
+                            </ul>
+                            <a class="btn btn-sm btn-primary px-3 py-2 me-2 mb-2" href="https://wa.me/6285190012056?text=Halo%20Omah%20N%27dinginan%2C%20saya%20ingin%20bertanya%20tentang%20villa." target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>Chat WhatsApp</a>
+                            <a class="btn btn-sm btn-outline-primary px-3 py-2 mb-2" href="mailto:dimasbusinesshub@gmail.com"><i class="bi bi-envelope me-2"></i>Kirim Email</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeIn" data-wow-delay="0.1s" id="peta" style="height: 460px;">
+                    <div class="bingkai-peta"><iframe src="https://maps.google.com/maps?q=-7.8034779,110.4865953&amp;hl=id&amp;z=15&amp;output=embed" title="Peta lokasi Omah N'dinginan" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </section>
+        <div class="pb-5"></div>
+    </main>
+
+    <!-- Kaki -->
+    <footer class="container-fluid text-light footer">
+        <div class="container pb-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-7">
+                    <img class="logo-kaki mb-3" src="img/logo-bulat.png" alt="Omah N'dinginan" width="512" height="512" loading="lazy">
+                    <p class="mb-0">Omah N'dinginan Prambanan, Sleman, Yogyakarta</p>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <h6 class="text-uppercase mb-4">Kontak</h6>
+                    <p class="mb-2 d-flex"><i class="bi bi-geo-alt me-3"></i><span>Jl. Dinginan, Sumberharjo, Prambanan, Sleman, Yogyakarta</span></p>
+                    <p class="mb-2 d-flex"><i class="bi bi-whatsapp me-3"></i><a href="https://wa.me/6285190012056?text=Halo%20Omah%20N%27dinginan%2C%20saya%20ingin%20bertanya%20tentang%20villa." target="_blank" rel="noopener">+62 851-9001-2056</a></p>
+                    <p class="mb-2 d-flex"><i class="bi bi-envelope me-3"></i><a href="mailto:dimasbusinesshub@gmail.com">dimasbusinesshub@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">&copy; 2026 Omah N'dinginan</div>
+                    <div class="col-md-6 text-center text-md-end">Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/6285190012056?text=Halo%20Omah%20N%27dinginan%2C%20saya%20ingin%20bertanya%20tentang%20villa." class="wa-melayang" target="_blank" rel="noopener" aria-label="Chat WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+    <!-- Library JavaScript -->
+    <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+
+    <!-- Kontak dan interaksi website -->
+    <script src="js/config.js"></script>
+    <script src="js/omah.js"></script>
+</body>
+
+</html>
